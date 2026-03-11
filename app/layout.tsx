@@ -10,6 +10,9 @@ export const metadata: Metadata = {
   title: "Motion Snippets - Copy-Paste Text Animations",
   description:
     "A beautiful collection of Motion React + Tailwind CSS text animations. Copy-paste ready!",
+  icons: {
+    icon: "/favicon.png",
+  },
 };
 
 export default function RootLayout({
