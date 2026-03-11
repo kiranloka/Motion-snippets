@@ -49,7 +49,7 @@ export function TextPreviewCard({ preset, index }: TextPreviewCardProps) {
           <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-300">
             <CopyButton
               code={preset.code}
-              className="bg-[#FBF7F4] dark:bg-black/20"
+              className="bg-[#ffffff] dark:bg-black/20"
             />
           </div>
         </div>

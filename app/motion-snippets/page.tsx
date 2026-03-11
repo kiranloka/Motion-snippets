@@ -72,7 +72,7 @@ export default function MotionSnippetsPage() {
             {paginated.map((preset, index) => (
               <div
                 key={preset.id}
-                className="bg-[#FBF7F4] dark:bg-[#000000] overflow-hidden flex flex-col"
+                className="bg-[#ffffff] dark:bg-[#000000] overflow-hidden flex flex-col"
               >
                 <TextPreviewCard preset={preset} index={index} />
               </div>
