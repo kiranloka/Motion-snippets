@@ -1,0 +1,43 @@
+
+> motion-snippets@0.1.0 dev
+> next dev
+
+ ⚠ Port 3000 is in use, trying 3001 instead.
+  ▲ Next.js 14.2.28
+  - Local:        http://localhost:3001
+
+ ✓ Starting...
+ ✓ Ready in 1113ms
+ ○ Compiling /motion-snippets ...
+ ✓ Compiled /motion-snippets in 1834ms (1194 modules)
+ ⨯ lib/theme.tsx (58:11) @ useTheme
+ ⨯ Error: useTheme must be used within ThemeProvider
+    at useTheme (./lib/theme.tsx:62:15)
+    at ThemeToggle (./components/ui/theme-toggle.tsx:19:88)
+digest: "725649199"
+[0m [90m 56 |[39m   [36mconst[39m context [33m=[39m useContext([33mThemeContext[39m)[0m
+[0m [90m 57 |[39m   [36mif[39m ([33m![39mcontext) {[0m
+[0m[31m[1m>[22m[39m[90m 58 |[39m     [36mthrow[39m [36mnew[39m [33mError[39m([32m'useTheme must be used within ThemeProvider'[39m)[0m
+[0m [90m    |[39m           [31m[1m^[22m[39m[0m
+[0m [90m 59 |[39m   }[0m
+[0m [90m 60 |[39m   [36mreturn[39m context[0m
+[0m [90m 61 |[39m }[0m
+ GET /motion-snippets 500 in 1949ms
+ ⨯ lib/theme.tsx (58:11) @ useTheme
+ ⨯ Error: useTheme must be used within ThemeProvider
+    at useTheme (./lib/theme.tsx:62:15)
+    at ThemeToggle (./components/ui/theme-toggle.tsx:19:88)
+digest: "725649199"
+[0m [90m 56 |[39m   [36mconst[39m context [33m=[39m useContext([33mThemeContext[39m)[0m
+[0m [90m 57 |[39m   [36mif[39m ([33m![39mcontext) {[0m
+[0m[31m[1m>[22m[39m[90m 58 |[39m     [36mthrow[39m [36mnew[39m [33mError[39m([32m'useTheme must be used within ThemeProvider'[39m)[0m
+[0m [90m    |[39m           [31m[1m^[22m[39m[0m
+[0m [90m 59 |[39m   }[0m
+[0m [90m 60 |[39m   [36mreturn[39m context[0m
+[0m [90m 61 |[39m }[0m
+ GET /motion-snippets 500 in 42ms
+ ✓ Compiled in 254ms (1194 modules)
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ GET /motion-snippets 200 in 91ms
+ ✓ Compiled in 126ms (1194 modules)
+[?25h

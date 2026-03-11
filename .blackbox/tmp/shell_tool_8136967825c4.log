@@ -1,0 +1,215 @@
+
+> motion-snippets@0.1.0 dev
+> next dev
+
+ ⚠ Port 3000 is in use, trying 3001 instead.
+  ▲ Next.js 14.2.28
+  - Local:        http://localhost:3001
+
+ ✓ Starting...
+ ✓ Ready in 1256ms
+ ○ Compiling /motion-snippets ...
+ ✓ Compiled /motion-snippets in 1725ms (1194 modules)
+ GET /motion-snippets 200 in 1841ms
+ ✓ Compiled in 175ms (602 modules)
+ ✓ Compiled in 116ms (602 modules)
+ ✓ Compiled in 144ms (602 modules)
+ ✓ Compiled in 120ms (602 modules)
+ ✓ Compiled in 249ms (602 modules)
+ ✓ Compiled in 104ms (602 modules)
+ ✓ Compiled in 81ms (602 modules)
+ ✓ Compiled in 103ms (602 modules)
+ ✓ Compiled /motion-snippets in 130ms (592 modules)
+ GET /motion-snippets 200 in 234ms
+ GET /motion-snippets 200 in 53ms
+ ✓ Compiled in 335ms (1194 modules)
+ ✓ Compiled in 170ms (1194 modules)
+ ✓ Compiled in 248ms (1194 modules)
+ ✓ Compiled in 127ms (1194 modules)
+ ✓ Compiled in 498ms (1180 modules)
+ ✓ Compiled in 185ms (1194 modules)
+ ✓ Compiled in 155ms (1194 modules)
+ GET /motion-snippets 200 in 129ms
+ ✓ Compiled in 378ms (1194 modules)
+ GET /motion-snippets 200 in 113ms
+ ✓ Compiled in 249ms (1194 modules)
+ ✓ Compiled in 336ms (1194 modules)
+ ✓ Compiled in 215ms (1194 modules)
+ ✓ Compiled in 150ms (1180 modules)
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET /motion-snippets 200 in 89ms
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ✓ Compiled in 119ms (1180 modules)
+ GET /motion-snippets 200 in 150ms
+ ✓ Compiled in 145ms (1194 modules)
+ GET /motion-snippets 200 in 65ms
+ ✓ Compiled in 153ms (1194 modules)
+ ✓ Compiled in 108ms (1194 modules)
+ ✓ Compiled in 351ms (1190 modules)
+ ✓ Compiled in 277ms (1190 modules)
+ ✓ Compiled in 202ms (1190 modules)
+ ✓ Compiled in 138ms (1190 modules)
+ GET /motion-snippets 200 in 121ms
+ ✓ Compiled in 243ms (1190 modules)
+ ✓ Compiled in 317ms (1190 modules)
+ GET /motion-snippets 200 in 117ms
+ ✓ Compiled in 250ms (1190 modules)
+ ✓ Compiled in 319ms (1190 modules)
+ GET /motion-snippets 200 in 132ms
+ ✓ Compiled in 245ms (1190 modules)
+ ✓ Compiled in 115ms (600 modules)
+ ✓ Compiled in 68ms (600 modules)
+ ✓ Compiled in 504ms (1178 modules)
+ GET /motion-snippets 200 in 78ms
+ ✓ Compiled in 297ms (1192 modules)
+ ✓ Compiled in 182ms (1192 modules)
+ ✓ Compiled in 283ms (603 modules)
+ ✓ Compiled in 283ms (1192 modules)
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ⨯ components/animations/text-preview-card.tsx (70:14) @ Animate
+ ⨯ ReferenceError: Animate is not defined
+    at TextPreviewCard (./components/animations/text-preview-card.tsx:113:115)
+digest: "1770899713"
+[0m [90m 68 |[39m         [33m<[39m[33mdiv[39m className[33m=[39m[32m"flex-1 flex flex-col items-center justify-center min-h-[160px] py-8 overflow-hidden pointer-events-none"[39m[33m>[39m[0m
+[0m [90m 69 |[39m           [33m<[39m[33mAnimatePresence[39m mode[33m=[39m[32m"wait"[39m[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 70 |[39m             [33m<[39m[33mAnimate[39m[0m
+[0m [90m    |[39m              [31m[1m^[22m[39m[0m
+[0m [90m 71 |[39m               key[33m=[39m{key}[0m
+[0m [90m 72 |[39m               preset[33m=[39m{preset[33m.[39mid}[0m
+[0m [90m 73 |[39m               [36mas[39m[33m=[39m[32m"span"[39m[0m
+ GET /motion-snippets 500 in 104ms
+ ✓ Compiled /_not-found in 387ms (1181 modules)
+ GET /_next/static/chunks/main-app.js 404 in 434ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 173ms
+ ✓ Compiled in 203ms (1203 modules)
+ ✓ Compiled in 115ms (1189 modules)
+ GET /motion-snippets 200 in 116ms
+ GET /motion-snippets 200 in 30ms
+ ✓ Compiled in 297ms (1200 modules)
+ ✓ Compiled in 508ms (1198 modules)
+ ✓ Compiled in 233ms (1198 modules)
+ ✓ Compiled in 120ms (1198 modules)
+ GET /motion-snippets 200 in 83ms
+ ✓ Compiled in 255ms (1198 modules)
+ ✓ Compiled in 301ms (1198 modules)
+ ✓ Compiled in 156ms (1198 modules)
+ ✓ Compiled in 295ms (1198 modules)
+ GET /motion-snippets 200 in 82ms
+ ✓ Compiled in 386ms (1198 modules)
+ ✓ Compiled /_not-found in 274ms (1187 modules)
+ GET /.well-known/appspecific/com.chrome.devtools.json 404 in 342ms
+ ✓ Compiled in 152ms (1201 modules)
+ ✓ Compiled in 94ms (1201 modules)
+ ✓ Compiled in 100ms (1201 modules)
+ ✓ Compiled in 127ms (1198 modules)
+ GET /motion-snippets 200 in 78ms
+ GET /motion-snippets 200 in 39ms
+ ✓ Compiled in 204ms (1198 modules)
+ GET /motion-snippets 200 in 79ms
+ ✓ Compiled in 315ms (1198 modules)
+ GET /motion-snippets 200 in 77ms
+ GET /motion-snippets 200 in 25ms
+ GET /motion-snippets 200 in 30ms
+ ✓ Compiled in 844ms (1198 modules)
+ ✓ Compiled in 557ms (1198 modules)
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: unexpected end of file
+ ✓ Compiled in 814ms (1198 modules)
+ ✓ Compiled in 291ms (1198 modules)
+ ✓ Compiled in 856ms (1198 modules)
+ ✓ Compiled in 963ms (1198 modules)
+ ✓ Compiled in 158ms (1198 modules)
+ ✓ Compiled in 773ms (1184 modules)
+ ✓ Compiled in 773ms (1198 modules)
+ ✓ Compiled in 879ms (1198 modules)
+ ✓ Compiled in 585ms (1198 modules)
+ ✓ Compiled in 464ms (1198 modules)
+ ✓ Compiled in 382ms (1198 modules)
+ ✓ Compiled in 300ms (1198 modules)
+ ✓ Compiled in 201ms (1198 modules)
+ ✓ Compiled in 283ms (1198 modules)
+ ✓ Compiled in 387ms (1198 modules)
+ ✓ Compiled in 735ms (1198 modules)
+ ✓ Compiled in 249ms (1198 modules)
+ ✓ Compiled in 177ms (1198 modules)
+ ✓ Compiled in 255ms (1198 modules)
+ ✓ Compiled in 142ms (1198 modules)
+ ✓ Compiled in 411ms (1198 modules)
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename '/Users/octonauts/Documents/Projects/motion-snippets/.next/cache/webpack/server-development/4.pack.gz_' -> '/Users/octonauts/Documents/Projects/motion-snippets/.next/cache/webpack/server-development/4.pack.gz'
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename '/Users/octonauts/Documents/Projects/motion-snippets/.next/cache/webpack/client-development/3.pack.gz_' -> '/Users/octonauts/Documents/Projects/motion-snippets/.next/cache/webpack/client-development/3.pack.gz'
+ ⨯ app/layout.tsx
+`next/font` error:
+Unknown font `Geist`
+ ⨯ app/layout.tsx
+`next/font` error:
+Unknown font `Geist`
+ ⨯ app/layout.tsx
+`next/font` error:
+Unknown font `Geist`
+ ⨯ ./app/globals.css:5:1
+Syntax error: /Users/octonauts/Documents/Projects/motion-snippets/app/globals.css The `bg-background` class does not exist. If `bg-background` is a custom class, make sure it is defined within a `@layer` directive.
+
+  3 | @import "shadcn/tailwind.css";
+  4 | 
+> 5 | @tailwind base;
+    | ^
+  6 | @tailwind components;
+  7 | @tailwind utilities;
+<w> [webpack.cache.PackFileCacheStrategy] Skipped not serializable cache item 'Compilation/modules|/Users/octonauts/Documents/Projects/motion-snippets/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[2]!/Users/octonauts/Documents/Projects/motion-snippets/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[3]!/Users/octonauts/Documents/Projects/motion-snippets/app/globals.css': No serializer registered for PostCSSSyntaxError
+<w> while serializing webpack/lib/cache/PackFileCacheStrategy.PackContentItems -> webpack/lib/NormalModule -> webpack/lib/ModuleBuildError -> PostCSSSyntaxError
+ ⨯ ./app/globals.css:5:1
+Syntax error: /Users/octonauts/Documents/Projects/motion-snippets/app/globals.css The `bg-background` class does not exist. If `bg-background` is a custom class, make sure it is defined within a `@layer` directive.
+
+  3 | @import "shadcn/tailwind.css";
+  4 | 
+> 5 | @tailwind base;
+    | ^
+  6 | @tailwind components;
+  7 | @tailwind utilities;
+ ⨯ ./app/globals.css:4:1
+Syntax error: /Users/octonauts/Documents/Projects/motion-snippets/app/globals.css The `bg-background` class does not exist. If `bg-background` is a custom class, make sure it is defined within a `@layer` directive.
+
+  2 | @import "tw-animate-css";
+  3 | 
+> 4 | @tailwind base;
+    | ^
+  5 | @tailwind components;
+  6 | @tailwind utilities;
+ ⨯ ./app/globals.css:4:1
+Syntax error: /Users/octonauts/Documents/Projects/motion-snippets/app/globals.css The `bg-background` class does not exist. If `bg-background` is a custom class, make sure it is defined within a `@layer` directive.
+
+  2 | @import "tw-animate-css";
+  3 | 
+> 4 | @tailwind base;
+    | ^
+  5 | @tailwind components;
+  6 | @tailwind utilities;
+ ⨯ ./app/globals.css:4:1
+Syntax error: /Users/octonauts/Documents/Projects/motion-snippets/app/globals.css The `bg-background` class does not exist. If `bg-background` is a custom class, make sure it is defined within a `@layer` directive.
+
+  2 | @import "tw-animate-css";
+  3 | 
+> 4 | @tailwind base;
+    | ^
+  5 | @tailwind components;
+  6 | @tailwind utilities;
+ ✓ Compiled in 94ms (597 modules)
+<w> [webpack.cache.PackFileCacheStrategy] Skipped not serializable cache item 'Compilation/modules|/Users/octonauts/Documents/Projects/motion-snippets/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[2]!/Users/octonauts/Documents/Projects/motion-snippets/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[3]!/Users/octonauts/Documents/Projects/motion-snippets/app/globals.css': No serializer registered for PostCSSSyntaxError
+<w> while serializing webpack/lib/cache/PackFileCacheStrategy.PackContentItems -> webpack/lib/NormalModule -> webpack/lib/ModuleBuildError -> PostCSSSyntaxError
+ ✓ Compiled in 317ms (1211 modules)
+ ✓ Compiled in 899ms (1211 modules)
+ ✓ Compiled in 155ms (1211 modules)
+ ✓ Compiled in 868ms (1209 modules)
+ ✓ Compiled in 130ms (1209 modules)
+ ✓ Compiled in 183ms (1211 modules)
+ ✓ Compiled in 118ms (1211 modules)
+ ✓ Compiled in 122ms (1211 modules)
+ ✓ Compiled in 150ms (1211 modules)
+ ✓ Compiled in 195ms (1211 modules)
+ ✓ Compiled in 323ms (1211 modules)
+ ✓ Compiled in 159ms (1211 modules)
+ ✓ Compiled in 169ms (1211 modules)
+ ✓ Compiled in 192ms (1211 modules)
+ ✓ Compiled in 387ms (1211 modules)
+ ✓ Compiled in 124ms (1211 modules)
+ ✓ Compiled in 160ms (1211 modules)
+[?25h
