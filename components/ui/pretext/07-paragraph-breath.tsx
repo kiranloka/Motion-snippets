@@ -53,17 +53,20 @@ export function ParagraphBreath({
     if (typeof window === "undefined") return null;
     return prepare(text, font);
   }, [text, font]);
-  const preparedWithSegs = useMemo(() => prepareWithSegments(text, font), [text, font]);
+  const preparedWithSegs = useMemo(() => {
+    if (typeof window === "undefined") return null;
+    return prepareWithSegments(text, font);
+  }, [text, font]);
 
-  const textLayout = useMemo(
-    () => layout(prepared, currentWidth, lineHeight),
-    [prepared, currentWidth, lineHeight]
-  );
+  const textLayout = useMemo(() => {
+    if (!prepared) return { height: 0, lineCount: 0 };
+    return layout(prepared, currentWidth, lineHeight);
+  }, [prepared, currentWidth, lineHeight]);
 
-  const { lines } = useMemo(
-    () => layoutWithLines(preparedWithSegs, currentWidth, lineHeight),
-    [preparedWithSegs, currentWidth, lineHeight]
-  );
+  const { lines } = useMemo(() => {
+    if (!preparedWithSegs || currentWidth === 0) return { lines: [], height: 0 };
+    return layoutWithLines(preparedWithSegs, currentWidth, lineHeight);
+  }, [preparedWithSegs, currentWidth, lineHeight]);
 
   return (
     <div
