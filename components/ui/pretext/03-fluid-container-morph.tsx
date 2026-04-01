@@ -15,10 +15,16 @@ export function FluidContainerMorph({
   const isDragging = useRef(false);
 
   // Measure once
-  const prepared = useMemo(() => prepare(text, font), [text, font]);
+  const prepared = useMemo(() => {
+    if (typeof window === "undefined") return null;
+    return prepare(text, font);
+  }, [text, font]);
 
   // Fast math! layout() doesn't touch the DOM
-  const textLayout = useMemo(() => layout(prepared, width, lineHeight), [prepared, width, lineHeight]);
+  const textLayout = useMemo(() => {
+    if (!prepared) return { height: lineHeight, lineCount: 1 };
+    return layout(prepared, width, lineHeight);
+  }, [prepared, width, lineHeight]);
 
   // Animate the container morph
   // We don't even need a React state to hold the 'spring height', we just let Motion handle it via the 'animate' prop.

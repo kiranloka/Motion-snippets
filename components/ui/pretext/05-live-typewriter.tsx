@@ -34,9 +34,12 @@ export function LiveTypewriter({
   const currentText = fullText.slice(0, charCount);
 
   // Re-measure height continuously as characters accumulate
-  const prepared = useMemo(() => prepare(currentText, font), [currentText, font]);
+  const prepared = useMemo(() => {
+    if (typeof window === "undefined") return null;
+    return prepare(currentText, font);
+  }, [currentText, font]);
   const textLayout = useMemo(() => {
-    if (!width) return { height: lineHeight, lineCount: 1 };
+    if (!prepared || !width) return { height: lineHeight, lineCount: 1 };
     return layout(prepared, width, lineHeight);
   }, [prepared, width, lineHeight]);
 

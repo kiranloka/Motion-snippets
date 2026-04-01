@@ -22,9 +22,12 @@ export function WordGravity({
     return () => observer.disconnect();
   }, []);
 
-  const prepared = useMemo(() => prepareWithSegments(text, font), [text, font]);
+  const prepared = useMemo(() => {
+    if (typeof window === "undefined") return null;
+    return prepareWithSegments(text, font);
+  }, [text, font]);
   const { lines, height } = useMemo(() => {
-    if (!width) return { lines: [], height: 0 };
+    if (!prepared || !width) return { lines: [], height: 0 };
     return layoutWithLines(prepared, width, lineHeight);
   }, [prepared, width, lineHeight]);
 

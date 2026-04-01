@@ -49,7 +49,10 @@ export function ParagraphBreath({
     };
   }, [breathWidth, minWidth, maxWidth, parentWidth]);
 
-  const prepared = useMemo(() => prepare(text, font), [text, font]);
+  const prepared = useMemo(() => {
+    if (typeof window === "undefined") return null;
+    return prepare(text, font);
+  }, [text, font]);
   const preparedWithSegs = useMemo(() => prepareWithSegments(text, font), [text, font]);
 
   const textLayout = useMemo(

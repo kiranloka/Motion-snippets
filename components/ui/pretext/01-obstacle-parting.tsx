@@ -44,7 +44,10 @@ export function ObstacleParting({
     smoothY.set(-1000);
   };
 
-  const prepared = useMemo(() => prepareWithSegments(text, font), [text, font]);
+  const prepared = useMemo(() => {
+    if (typeof window === "undefined") return null;
+    return prepareWithSegments(text, font);
+  }, [text, font]);
 
   // Compute Layouts per frame
   // React state will drive the layout updates since mousePos is tracked in states.
@@ -52,7 +55,7 @@ export function ObstacleParting({
   // but for copy-paste components, React re-renders are clearer and often fast enough.
   const lines = useMemo(() => {
     const layoutLines: { text: string; id: string; x: number; y: number; width: number }[] = [];
-    if (containerWidth === 0) return { layoutLines, totalHeight: 0 };
+    if (!prepared || containerWidth === 0) return { layoutLines, totalHeight: 0 };
 
     let cursor: LayoutCursor = { segmentIndex: 0, graphemeIndex: 0 };
     let currentY = 0;
