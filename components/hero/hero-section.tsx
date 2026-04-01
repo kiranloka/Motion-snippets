@@ -32,7 +32,7 @@ export function HeroSection() {
           transition={{ duration: 0.6, delay: 0.4, ease: "easeOut" }}
         >
           Copy-paste library of beautiful text animations built with Motion
-          React + Tailwind CSS.
+          React + Tailwind CSS . Along with Pretext Layout Engine
         </motion.p>
       </div>
     </div>
